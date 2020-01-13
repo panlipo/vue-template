@@ -8,6 +8,7 @@
 <script>
 import tinymce from "../../components/tinymce";
 import upload from "../../components/upload";
+// 111
 export default {
   name: "index",
   data() {
