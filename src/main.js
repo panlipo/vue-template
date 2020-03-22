@@ -1,8 +1,3 @@
-// new Vue({
-//   router,
-//   render: h => h(App)
-// }).$mount('#app')
-
 import Vue from 'vue'
 
 import App from './App'
