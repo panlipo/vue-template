@@ -14,7 +14,7 @@ let baseURL
 if (process.env.NODE_ENV == 'development') {
     baseURL = 'apis';
 } else if (process.env.NODE_ENV == 'production') {
-    baseURL = 'https://www.hzmuji.com/education';
+    baseURL = '*****';
 }
 
 const axiosdefault = axios.create({
