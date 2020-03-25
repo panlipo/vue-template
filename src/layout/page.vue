@@ -53,6 +53,7 @@ export default {
     right: 0;
     transition: all 0.3s;
     background: #545c64;
+    z-index: 999;
   }
   .container {
     margin-left: 200px;
@@ -66,13 +67,14 @@ export default {
   .main {
     padding: 30px;
     box-sizing: border-box;
+    min-width: 1000px;
   }
 }
 .mt20 {
   margin-top: 20px;
 }
 .ml20 {
-  margin-left: 20px !important;
+  margin-left: 20px;
 }
 .mr20 {
   margin-right: 20px;
