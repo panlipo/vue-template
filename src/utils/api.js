@@ -1,19 +1,24 @@
-import { request, upload } from './http'
+import { request } from './http'
 
 const api = {
-    login(params) {
+    login(data) {
         return request({
-            methods: "POST",
+            method: "POST",
             url: '/login',
-            params
+            data
         })
     },
-    uploadfile(params) {
-        return upload({
-            methods: "POST",
-            url: '/uploadFile',
-            params
+    uploadfile(data) {
+        return request({
+            method: "POST",
+            url: '/rulephoto',
+            data,
+            headers: {
+                'Content-Type': 'multipart/form-data'
+            },
+            noqs: true
         })
-    }
+    },
+
 }
 export default api

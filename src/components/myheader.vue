@@ -105,6 +105,7 @@ export default {
       img {
         width: 40px;
         height: 40px;
+        border-radius: 50%;
       }
       i {
         transition: all 0.2s;
@@ -119,7 +120,7 @@ export default {
       opacity: 0;
       transition: all 0.3s;
       z-index: 999;
-      // padding: 5px 0;
+      background: white;
       p {
         color: black;
         background: white;

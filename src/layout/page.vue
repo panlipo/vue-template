@@ -44,6 +44,9 @@ export default {
 .page {
   height: 100%;
   display: flex;
+  .header {
+    min-width: 1000px;
+  }
   .slider {
     width: 200px;
     position: fixed;
@@ -62,24 +65,37 @@ export default {
     width: -webkit-calc(100% - 200px);
     width: -moz-calc(100% - 200px);
     width: calc(100% - 200px);
-    // width: 100%;
   }
   .main {
     padding: 30px;
     box-sizing: border-box;
-    min-width: 1000px;
+    min-width: 1100px;
   }
 }
 .mt20 {
   margin-top: 20px;
 }
 .ml20 {
-  margin-left: 20px;
+  margin-left: 20px !important;
 }
 .mr20 {
   margin-right: 20px;
 }
 .mb20 {
   margin-bottom: 20px;
+}
+.flex_c_c {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex_b_c {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex__c {
+  display: flex;
+  align-items: center;
 }
 </style>

@@ -115,12 +115,6 @@ router.beforeEach((to, from, next) => {
       next()
     } else {
       next({ path: '/login' })
-      // router.replace({
-      //   path: '/login',
-      //   query: {
-      //     redirect: router.currentRoute.fullPath
-      //   }
-      // });
     }
   }
 });
