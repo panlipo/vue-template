@@ -15,7 +15,7 @@ let baseURL
 if (process.env.NODE_ENV == 'development') {
     baseURL = 'apis';
 } else if (process.env.NODE_ENV == 'production') {
-    baseURL = 'https://www.zwzart.cn/';
+    baseURL = '***';
 }
 
 const instance = axios.create({
